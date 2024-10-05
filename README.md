@@ -1,1 +1,5 @@
 # UTNFRA_SO_1P2C_2024_-More-
+Nombre: Leandro Manuel 
+Apellido: More
+Legajo: 117881
+Division: 314
