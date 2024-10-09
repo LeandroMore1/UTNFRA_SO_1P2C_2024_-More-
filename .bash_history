@@ -457,3 +457,487 @@ cat .bash_history
 cp $HOME/.bash_history /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/
 cat .bash_history 
 history -a
+cp $HOME/.bash_history /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/
+cat README.md
+git status
+git add .
+git commit -m "correccion error en readme"
+git push
+ls
+ls RTA_ARCHIVOS_Examen_20241005/
+bash ./RTA_SCRIPT_Examen_20241005/Punto_F.sh
+ls
+cat RTA_ARCHIVOS_Examen_20241005/Filtro_Avanzado.txt 
+rm RTA_ARCHIVOS_Examen_20241005/Filtro_Avanzado.txt 
+ls RTA_ARCHIVOS_Examen_20241005
+clear
+vim ./RTA_SCRIPT_Examen_20241005/Punto_C.sh
+group
+man groups
+sudo useradd -m -s /bin/bash -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')" -G usuario grupoej
+sudo groupadd -G grupo_ejemplo
+sudo useradd -m -s /bin/bash -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')" -G grupoej usuario
+sudo groupadd usuariosGrupo
+sudo useradd -m -s /bin/bash -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')" -G usuariosGrupo usuario
+users
+cat /etc/passwd
+awk -F: '{ print $1 }' /etc/passwd
+grep 'usuario' /etc/passwd
+id
+id usuario
+cat etc/group
+cat /etc/group
+cat /etc/group | grep 'usuario'
+sudo groupdel --help
+sudo groupdel usuariosGrupo 
+cat /etc/group | grep 'usuario'
+sudo groupdel usuario
+sudo userdel usuario 
+sudo groupdel usuario
+cat /etc/group | grep 'usuario'
+grep 'usuario' /etc/passwd
+d
+id
+id usuario
+cd /home
+ls
+ls usuario/
+sudo ls usuario/
+rm -rf usuario/
+sudo rm -rf usuario/
+ls usuario/
+ls
+sudo groupadd ejemplo
+cat /etc/group | grep 'ej'
+sudo groupdel ejemplo
+clear
+ls
+cd vagrant/
+ls
+cd repogit/UTNFRA_SO_1P2C_2024_-More-
+ls
+bash RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+cat /etc/group
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+cat /etc/group | grep 'ej'
+cat /etc/group | grep 'grupo'
+cat /etc/group | grep -i 'grupo'
+cat /etc/group | grep -i 'grupo_alumno'
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+cat /etc/group | grep -i 'grupo_alumno'
+bash RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo groupdel GRUPO_ALUMNOS 
+sudo groupdel GRUPO_PROFESORES 
+cat /etc/group | grep -i 'grupo_alumno'
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+cat /etc/group | grep -i 'grupo_alumno'
+bash RTA_SCRIPT_Examen_20241005/Punto_C.sh
+cat /etc/group | grep -i 'grupo_alumno'
+sudo groupdel GRUPO_PROFESORES 
+sudo groupdel GRUPO_ALUMNOS 
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash RTA_SCRIPT_Examen_20241005/Punto_C.sh
+cat /etc/group | grep -i 'p1c2'
+sudo groupdel p1c2_2024_gAlumno 
+sudo groupdel p1c2_2024_gProfesores 
+cat /etc/group | grep -i 'p1c2'
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash RTA_SCRIPT_Examen_20241005/Punto_C.sh
+grep 'p1' /etc/passwd
+id p1c2_2024_A1
+id p1c2_2024_A2
+gid
+id p1c2_2024_A3
+id vagrant
+groups
+id p1c2_2024_A1
+id p1c2_2024_A2
+id p1c2_2024_A3
+id p1c2_2024_P1
+grep 'p1' /etc/passwd
+groups p1c2_2024_A1
+vim RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo cat /etc/shadow
+userdel p1c2_2024_A1
+sudo userdel p1c2_2024_A1
+sudo userdel p1c2_2024_A2
+sudo userdel p1c2_2024_A3
+sudo userdel p1c2_2024_P1 
+sudo groupdel p1c2_2024_gAlumno 
+
+cat /etc/group | grep -i 'p1c2'
+grep 'p' /etc/passwd
+grep 'p1' /etc/passwd
+git status
+ls
+ls RTA_ARCHIVOS_Examen_20241005/
+git add .
+git commit -m "resolucion parcial del punto C (permisos y users)"
+git status
+git push
+exit
+logout
+ls
+cat /etc/passwd
+whoami
+sudo su -c "whoami"
+users
+useradd pepe -p "123"
+sudo useradd pepe -p "123"
+users
+od
+id
+id pepe
+sudo pepe whoami
+sudo -u pepe whoami
+sudo - pepe whoami
+sudo -u pepe whoami
+su pepe
+sudo -su -c whoami
+sudo -su pepe whoami
+ls
+userdel pepe 
+sudo userdel pepe 
+sudo -su pepe whoami
+ls
+id pepe
+cd repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/
+ls
+vim Punto_C.sh 
+ls
+id
+ll
+cd /
+ll
+ls etc/passwd
+ls etc/passwd/
+cat etc/passwd
+cat etc/passwd | grep '1000'
+sudo -su whoami
+id
+sudo -su vagrant whoami
+useradd pepe
+sudo useradd pepe
+ls
+sudo -su pepe id
+sudo -su pepe echo "hola" > /texto.txt
+sudo -u pepe echo "hola" > /texto.txt
+ls
+cd repogit
+cd /repogit
+cd repogit/
+cd /home
+ls
+userdel pepe 
+sudo userdel pepe 
+ls p1c2_2024_A1
+sudo ls p1c2_2024_A1
+useradd -m pepe
+sudo useradd -m pepe
+ls 
+sudo -u pepe echo "hola" > /home/pepe/texto.txt
+sudo -su pepe echo "hola" > /home/pepe/texto.txt
+ls -la
+ls
+sudo -u pepe echo "hola" > pepe/texto.txt
+sudo -su pepe echo "hola" > pepe/texto.txt
+sudo -su pepe bash -c 'echo "hola" > pepe/texto.txt'
+sudo rm -rf p1c2_2024_A1 p1c2_2024_A2
+ls
+sudo rm -rf p1c2_2024_A3 p1c2_2024_P1
+ls
+sudo rm -rf pepe/
+ls
+id
+cat etc/passwd | grep '1000'
+cat etc/passwd/ | grep '1000'
+cat etc/passwd/ | grep 'vag'
+cat /etc/passwd/ | grep 'vag'
+cat /etc/passwd | grep 'vag'
+cat /etc/shadow | grep 'vag'
+sudo cat /etc/shadow | grep 'vag'
+sudo cat /etc/passwd 
+id pepe
+sudo cat /etc/shadow | grep 'pepe'
+su pepe
+sudo passd -u pepe
+sudo passwd -u pepe
+sudo cat /etc/shadow | grep 'pepe'
+userdel pepe
+sudo userdel pepe
+ls
+vim Punto_C.sh 
+locate Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo cat /etc/shadow | grep 'pepe'
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep 'p1'
+sudo cat /etc/passwd 
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep 'p1'
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo cat /etc/shadow | awk -F ':' '{print $1}
+sudo cat /etc/shadow | awk -F ':' '{print $1}'
+exit
+logout
+cat
+sudo
+'
+sudo cat /etc/shadow | awk -F ':' '{print $1}'
+sudo cat /etc/shadow | grep 'p1c2' | awk -F ':' '{print $1}'
+sudo cat /etc/shadow | grep 'p1c2_2024_A1' | awk -F ':' '{print $1}'
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+cd /repogit
+cd /vagrant/repogit
+ls
+cd vagrant/repogit/
+git status
+cd UTNFRA_SO_1P2C_2024_-More-/
+ls
+git status
+git commit -m "realizacion parcial punto C"
+git add .
+git commit -m "realizacion parcial punto C"
+git push
+git status
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls
+cd /home
+ls
+cd /
+ls
+ls -la Examenes-UTN/
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls -la Examenes-UTN/
+cd Examenes-UTN/
+ls -la
+ls -la alumno_1
+ls -la alumno_P1
+ls -la profesores/
+ls -la alumno_P1
+cd Examenes-UTN/
+ls -la alumno_1
+ls -la 
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls -la
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls -la
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls -la
+ls -la alumno_1
+sudo ls -la alumno_1
+sudo ls -la alumno_2
+sudo ls -la alumno_3
+sudo ls -la profesores/
+pwd
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo ls -la profesores/
+ls
+ls alumno_1
+sudo ls alumno_1
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls alumno_1
+sudo ls alumno_1
+ls
+sudo ls -la alumno_1
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo ls -la alumno_1
+ls
+sudo cat alumno_1/validar.txt
+sudo cat alumno_2/validar.txt
+sudo cat alumno_3/validar.txt
+sudo cat profesores/validar.txt
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo cat profesores/validar.txt
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo -su -c "whoami > /Examenes-UTN/alumnos_1/validar.txt" p1c2_2024_A1
+sudo -su p1c2_2024_A1 -c "whoami > /Examenes-UTN/alumnos_1/validar.txt"
+sudo -su p1c2_2024_A1 "whoami > /Examenes-UTN/alumnos_1/validar.txt"
+sudo -su p1c2_2024_A1 bash "echo $(whoami) > /Examenes-UTN/alumnos_1/validar.txt"
+sudo -su p1c2_2024_A1 bash -c "echo $(whoami) > /Examenes-UTN/alumnos_1/validar.txt"
+cd ..
+sudo -su p1c2_2024_A1 bash -c "echo $(whoami) > /Examenes-UTN/alumnos_1/validar.txt"
+ls
+sudo -su p1c2_2024_A1 bash -c "echo $(whoami) > Examenes-UTN/alumnos_1/validar.txt"
+sudo -u p1c2_2024_A1 bash -c 'echo "El usuario actual es: $(whoami)"'
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo cat profesores/validar.txt
+cd /Examenes-UTN/
+sudo cat profesores/validar.txt
+sudo cat alumno_1/validar.txt
+sudo cat alumno_2/validar.txt
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo cat profesores/validar.txt
+sudo cat alumno_1/validar.txt
+sudo cat alumno_2/validar.txt
+sudo cat alumno_3/validar.txt
+vim /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+ls
+sudo ls alumno_1
+sudo rm alumno_1/validar.txt
+sudo ls alumno_1
+sudo rm alumno_2/validar.txt alumno_3/validar.txt profesores/validar.txt
+sudo ls alumno_2
+sudo ls alumno_3
+sudo ls profesores/
+bash /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/Punto_C.sh
+sudo ls profesores/
+cat profesores/validar.txt 
+cat alumno_1/validar.txt 
+sudo cat alumno_1/validar.txt 
+sudo cat alumno_2/validar.txt 
+sudo cat alumno_3/validar.txt 
+sudo rm alumno_2/validar.txt alumno_3/validar.txt profesores/validar.txt
+sudo rm alumno_1/validar.txt
+ls
+ls alumno_1
+sudo ls alumno_1
+sudo ls alumno_2
+sudo ls alumno_3
+sudo ls profesores/
+cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/
+ls
+history -a
+git status
+git add .
+git commit -m "resolucion completa del punto C"
+git push
+exit
+ls
+cd repogit/UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/
+ls
+cat Punto_D.sh
+vim Punto_D.sh
+ls /
+ls E
+ls /Estructura_Asimetrica/
+rm -rf /Estructura_Asimetrica/
+sudo rm -rf /Estructura_Asimetrica/
+bash Punto_D.sh
+ls /
+ñs - /var/log
+ls - /var/log
+ls -l /var/log
+sudo fdisk -l
+ls
+vim Punto_C
+vim Punto_C.sh
+sudo fdisk -l
+ls -l /
+sudo fdisk -l
+ls -l /dev/sdb
+ls -l /dev/sdc
+git status
+git add .
+git commit -m "corregida fe de erratas del punto D"
+git push
+ls
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep 'p1'
+sudo cat /etc/shadow | grep 'p1c2_2024_P1'
+ls
+exit
+logout
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-More-/RTA_SCRIPT_Examen_20241005/
+ls
+vim Punto_B.sh 
+ls
+vim Punto_B.sh 
+ls
+git status
+git add . 
+git commit -m "Resolucion punto B"
+git push
+ls
+bash Punto_B.sh
+ls
+ls /
+whoami
+users
+vim Punto_C.sh
+bash Punto_C.sh
+vim Punto_C.sh
+bash Punto_C.sh
+ls -la
+ls
+ls -la /Examenes-UTN/
+ls -la /Examenes-UTN/alumno_1
+sudo ls -la /Examenes-UTN/alumno_1
+sudo cat /Examenes-UTN/alumno_1/validar.txt
+sudo cat /Examenes-UTN/alumno_2/validar.txt
+sudo cat /Examenes-UTN/alumno_3/validar.txt
+sudo cat /Examenes-UTN/profesores/validar.txt
+ls
+git status
+git commit -m "correccion de error en punto C"
+git add .
+git commit -m "correccion de error en punto C"
+git push
+history -a
+ls
+cd ..
+ls
+ls -a
+cat .bash_history 
