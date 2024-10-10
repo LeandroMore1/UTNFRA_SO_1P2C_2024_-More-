@@ -941,3 +941,62 @@ cd ..
 ls
 ls -a
 cat .bash_history 
+cp $HOME/.bash_history /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/
+cat .bash_history 
+git status
+git commit -m "agregado el bash history"
+git add .
+git commit -m "agregado el bash history"
+git status
+cat .bash_history 
+git status
+cd ..
+git status
+ls
+git status
+git status UTNFRA_SO_1P2C_2024_-More-/
+cd /UTNFRA_SO_1P2C_2024_-More-/
+ls
+cd UTNFRA_SO_1P2C_2024_-More-/
+ñs
+ls
+git status
+git push
+ls
+ls RTA_ARCHIVOS_Examen_20241005/
+RTA_SCRIPT_Examen_20241005/
+ls RTA_SCRIPT_Examen_20241005/
+ls Punto_A.sh
+cat Punto_A.sh
+ls
+cd RTA_SCRIPT_Examen_20241005/
+ls
+cat Punto_A.sh
+cat Punto_B.sh
+cat Punto_C.sh
+cat Punto_D.sh
+cat Punto_E.sh
+cat Punto_F.sh
+exit
+ls
+cd repogit/UTNFRA_SO_1P2C_2024_-More-/
+ls
+bash RTA_SCRIPT_Examen_20241005/Punto_E.sh 
+bash RTA_SCRIPT_Examen_20241005/Punto_F.sh 
+ls
+ls RTA_ARCHIVOS_Examen_20241005/
+cat  RTA_ARCHIVOS_Examen_20241005/Filtro_Avanzado.txt 
+cat  RTA_ARCHIVOS_Examen_20241005/Filtro_Basico.txt 
+git status
+git add .
+git commit -m "agregadas respuestas faltantes"
+git push
+history -a
+ls
+cat .bash_history | grep 'cp'
+cp $HOME/.bash_history /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_-More-/
+cat .bas
+cat .bash_history | tail -5
+cat .bash_history | tail -10
+history -a
+cat .bash_history | tail -10
